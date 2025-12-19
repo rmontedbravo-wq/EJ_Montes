@@ -4,6 +4,7 @@
 El Sistema Estudio de Abogados es una aplicación desarrollada en PHP + MySQL que permite la gestión básica de un estudio jurídico. El sistema administra clientes, expedientes, juzgados, cortes judiciales, pagos, documentos y usuarios, permitiendo llevar el control del estado de los procesos judiciales.
 
 El proyecto está orientado a fines académicos y prácticos, mostrando una estructura sencilla sin el uso de frameworks, controladores ni patrón MVC; toda la lógica se encuentra organizada dentro de la carpeta principal estudio_abogados.
+
 🛠️ Requisitos del Sistema
 🔹 Software
 PHP 7.4 o superior
@@ -17,6 +18,7 @@ gd (opcional, para PDF)
 🔹 Librerías
 FPDF (incluida en la carpeta /fpdf
 ⚙️ Instrucciones de Instalación
+
 1️⃣ Clonar el repositorio
 git clone https://github.com/tu_usuario/estudio_abogados.git
 2️⃣ Copiar el proyecto al servidor local
