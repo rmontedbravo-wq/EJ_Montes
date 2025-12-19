@@ -21,17 +21,21 @@ FPDF (incluida en la carpeta /fpdf
 
 1️⃣ Clonar el repositorio
 git clone https://github.com/tu_usuario/estudio_abogados.git
+
 2️⃣ Copiar el proyecto al servidor local
 Mover la carpeta estudio_abogados a:
 htdocs (XAMPP)
 www (WAMP)
+
 3️⃣ Importar la base de datos
 Abrir phpMyAdmin
 Crear una base de datos (ejemplo: estudio_abogados)
 Importar el archivo .sql
+
 4️⃣ Configurar la conexión
 Editar el archivo de conexión ubicado en:
 $conexion = new mysqli("localhost", "root", "", "estudio_abogados");
+
 ▶️ Cómo Ejecutar el Proyecto
 Iniciar Apache y MySQL desde XAMPP / WAMP
 Abrir el navegador
